@@ -1,0 +1,9 @@
+.produto-list-page ion-card {
+  margin: 12px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.produto-list-page ion-card-title {
+  font-size: 1.2rem;
+}

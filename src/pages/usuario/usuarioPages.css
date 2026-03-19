@@ -1,0 +1,9 @@
+.usuario-list-page ion-list {
+  margin-bottom: 24px;
+}
+
+.usuario-list-page ion-item {
+  --background: var(--ion-color-light);
+  margin-bottom: 8px;
+  border-radius: 8px;
+}

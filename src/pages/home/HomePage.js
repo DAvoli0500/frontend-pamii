@@ -1,5 +1,6 @@
 import './HomePage.css'
 import { createHeader } from '../../shared/Header.js'
+import { logout } from '../../shared/util.js'
 
 const pageName = 'Home';
 
@@ -10,6 +11,7 @@ class HomePage extends HTMLElement {
         this.innerHTML = `
             ${cabecalho}
         `;
+        this.querySelector('#logout-button')?.addEventListener('click', logout);
     }
 }
 
